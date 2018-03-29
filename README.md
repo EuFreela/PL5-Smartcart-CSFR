@@ -4,17 +4,17 @@
 
 <p><b>SmartCart</b> é um packager criado para o framework laravel 5.5 por Lameck Fernandes. Tem o objetivo de automatizar o desenvolvimento de aplicações que utilizam um carrinho de compras.</p>
 
-<p>Este packager foi desenvolvido para acelerar o desenvolvimento de lojas virtuais que utilizam um carrinho de compras. Ou seja, neste packager foram desenvolvidos as rotas, tabelas e os controles de uma aplicação convencional. Para exemplificar seu uso foi desenvolvido um protótipo com bootstrap 4 que acompanha o packager. Em resumo, para o complemento deste packager basta a API de pagamento.</p>
+<p>Este packager foi desenvolvido para acelerar o desenvolvimento de lojas virtuais que utilizam um carrinho de compras. Ou seja, neste packager foram desenvolvidos as rotas, tabelas e os controles de uma aplicação convencional. Para exemplificar seu uso foi desenvolvido um protótipo com bootstrap 4 que acompanha o packager. Em resumo, para o seu complemento basta a API de pagamento.</p>
 
-<p>O cart foi baseado no uso de sessão para controle da lista de pedidos. Esta aplicação, inicialmente, trata-se de <b>server-side</b>. No foi desenvolvido a API para client-side, o que poderá conter em outra versão. Contudo, caso seja o interesse, a maior parte do projeto já foi desenvolvida bastando apenas os retornos em json. O modelo usado para tokens é o nativo CSFR. Para JWT basta mínimas alteraçes. O Objetivo é acelerar o desenvolvido, com este packager no há perda de tempo desenvolvendo o cart e tabelas necessárias, permitindo que o desenvolvedor concentre no que é necessário ou que altere minimas configuraçes aproveitando melhor o código.</p>
+<p>O cart foi baseado no uso de sessão para controle da lista de pedidos. Esta aplicação, inicialmente, trata-se do modelo <b>server-side</b>. Não foi desenvolvido a API para client-side, o que poderá conter em outra versão. Contudo, caso seja o interesse, a maior parte do projeto já foi desenvolvida o que bastaria retornos em json. O modelo usado para tokens é o nativo CSFR. Para JWT basta mínimas alteraçes com o objetivo é acelerar o desenvolvido. Embora o DER ainda dependa das características que variam a cada projeto, utiliando com este packager o tempo de desenvolvido se reduz customizando o código de acordo com suas necessidades.</p>
 
-<p>As tabelas foram criadas de acordo com o que é mais comum em cadastro de produtos. Nesta aplicação existe o controle de estoque (inventário), categoria, marca e fornecedor.</p>
+<p>As tabelas foram criadas de acordo com o que é mais comum em cadastros de produtos como: o controle de estoque (inventário); categoria; marca; fornecedor; e propriamente o produto.</p>
 
 <p>Este packager contém:</p>
  <br>
   <h2><b>Publishables</b></h2>
   <h3><i>Migrations</i></h3>
-  <p>Ordem de migração</p>
+  <p>Ordem de migração. Notei que entre o sistema Linux e windows, a ordem se faz necessária. Alguns possíveis erros, que varia com o sistema e banco que esta usando, poderia ser que a forekey não pode ser nula. Devido a relação de composição entre as tabelas, category, brand, address e status não migram forekeys mas elas exportam. As tabelas que migram são: provider de status e address; product de provider; e inventory de product. Não ouve problemas para sistemas linux, especificamente Ubuntu 16 LTS rodando phpmyadmin com mysql. Porém no windows, com wampserver apresentou estes problemas os quais foram corrigidos alterando a ordem das tabelas. Isso, se for realmente usar <b>artisan migrate</b>.</p>
   <o>
       <li>2018_03_26_225025_create_category</li>
       <li>2018_03_26_230229_create_brand</li>
@@ -171,7 +171,7 @@ Adicione em routemiddlware:<br>
 <img src="https://s18.postimg.org/w5ynv4ynt/Captura_de_tela_de_2018-03-28_21-43-02.png" widht="900" height="400">
 <hr>
 
-<p>Prócimos plugins adiciono o pagamento com diversos places dentro do brasil e fora.</p>
+<p>Próximos plugins adiciono o pagamento com diversos places dentro e fora do Brasil.</p>
 
 
 
