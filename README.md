@@ -122,7 +122,7 @@ Adicione em routemiddlware:<br>
 <p>Crie um banco de dados e configure o arquivo nativo <b>.env</b></p>
 <p>Crie as tabelas no banco: <b>php artisan migrate</b></p>
 <p>Adicione ao arquivo <b>DatabaseSeeder</b></p>
-<blockquote>
+<blockquote><pre>
     //$this->call(UsersTableSeeder::class);
     $this->call(smcCategoryTableSeeder::class);
     $this->call(smcBrandTableSeeder::class);
@@ -131,7 +131,7 @@ Adicione em routemiddlware:<br>
     $this->call(smcProviderTableSeeder::class);
     $this->call(smcProductTableSeeder::class);
     $this->call(smcInventoryTableSeeder::class);
-</blockquote>
+</pre></blockquote>
 <p>Se não digitar este comando, as tabelas poderão não ser populadas: <b>composer dump-autoload</b>. Um possível erro seria algo como "a tabela smcCategoryTableSeeder não foi encontrada"</p>
 <p>Popule as tabelas: <b>php artisan db:seed</b></p>
 <p>Rode o servidor<b>php artisan serve</b></p>
