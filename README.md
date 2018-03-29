@@ -92,9 +92,8 @@
 
 #### INSTALAÇÃO
 
-<blockquote><pre>
  <b>composer require lameck/smartcart</b>
-<blockquote><pre>
+
 
 <hr>
 
