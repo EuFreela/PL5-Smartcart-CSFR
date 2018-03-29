@@ -131,15 +131,22 @@ Adicione em routemiddlware:<br>
     $this->call(smcProductTableSeeder::class);
     $this->call(smcInventoryTableSeeder::class);
 </blockquote>
-Se não digitar este comando, as tabelas poderão não ser populadas: <p>composer dump-autoload</p>
+<p>Se não digitar este comando, as tabelas poderão não ser populadas: <b>composer dump-autoload</b>. Um possível erro seria algo como "a tabela smcCategoryTableSeeder não foi encontrada"</p>
 <p>Popule as tabelas: <b>php artisan db:seed</b></p>
-<p>php artisan serve</p>
+<p>Rode o servidor<b>php artisan serve</b></p>
+<p>Para acessar as rotas basta <b>php artisan rout:list</b>. O protóripo se encontra na <b>localhot:8000/smc</b></p>
 
 <hr>
-
+<b>Domínio</b><br>
 <img src="https://s18.postimg.org/l3tkwszh5/Dominio.jpg" widht="400" height="400">
 
 <hr>
+
+<b>Home</b><br>
+<img src="https://s18.postimg.org/9384w2kcp/Captura_de_tela_de_2018-03-28_21-22-14.png" widht="900" height="400">
+
+<b>SHOP</b><br>
+<img src="https://s18.postimg.org/9384w2kcp/Captura_de_tela_de_2018-03-28_21-22-14.png" widht="900" height="400">
 
 
 
