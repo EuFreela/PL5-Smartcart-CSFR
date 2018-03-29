@@ -94,7 +94,6 @@
 
 <o>
   <li>1. <b>composer require lameck/smartcart</b></li>
-  <li>2. <b>php artisan vendor:publish --provider="Lameck\Manuser\ManuserServiceProvider"</b></li>
 </o>
 
 <hr>
