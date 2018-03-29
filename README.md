@@ -131,9 +131,15 @@ Adicione em routemiddlware:<br>
     $this->call(smcProductTableSeeder::class);
     $this->call(smcInventoryTableSeeder::class);
 </blockquote>
+Se não digitar este comando, as tabelas poderão não ser populadas: <p>composer dump-autoload</p>
 <p>Popule as tabelas: <b>php artisan db:seed</b></p>
+<p>php artisan serve</p>
 
 <hr>
 
 <img src="https://s18.postimg.org/l3tkwszh5/Dominio.jpg" widht="400" height="400">
+
+<hr>
+
+
 
