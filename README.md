@@ -146,8 +146,8 @@ Adicione em routemiddlware:<br>
 <b>Home</b><br>
 <img src="https://s18.postimg.org/9384w2kcp/Captura_de_tela_de_2018-03-28_21-22-14.png" widht="900" height="400">
 <br>
+
 <b>SHOP</b><br>
-<img src="<b>Home</b><br>
 <img src="https://s18.postimg.org/a6s97skcp/Captura_de_tela_de_2018-03-28_21-36-55.png" widht="900" height="400">" widht="900" height="400">
 
 <br>
