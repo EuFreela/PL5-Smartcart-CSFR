@@ -92,17 +92,17 @@
 
 #### INSTALAÇÃO
 
-<o>
-  <li>1. <b>composer require lameck/smartcart</b></li>
-</o>
+<blockquote><pre>
+ <b>composer require lameck/smartcart</b>
+<blockquote><pre>
 
 <hr>
 
 ##### PROVIDER: app/config/app.php
 <blockquote><pre>
 ...   
-	Lameck\Smartcart\SmartcartServiceProvider::class,
-</pre></blockquote>
+   Lameck\Smartcart\SmartcartServiceProvider::class,
+<blockquote><pre>
 
 <hr>
   
@@ -118,7 +118,6 @@ Adicione em routemiddlware:<br>
 
 #### PUBLISH
 
-Adicione em na classe:<br>
 <blockquote><pre>
 <b>php artisan vendor:publish --provider="Lameck\Smartcart\SmartcartServiceProvider"</b>
 </pre></blockquote>
