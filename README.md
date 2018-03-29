@@ -94,14 +94,13 @@
 
  <b>composer require lameck/smartcart</b>
 
-
 <hr>
 
 ##### PROVIDER: app/config/app.php
-<blockquote><pre>
+<blockquote>
 ...   
    Lameck\Smartcart\SmartcartServiceProvider::class,
-</pre><blockquote>
+<blockquote>
 
 <hr>
   
@@ -117,9 +116,9 @@ Adicione em routemiddlware:<br>
 
 #### PUBLISH
 
-<blockquote><pre>
+<blockquote>
 <b>php artisan vendor:publish --provider="Lameck\Smartcart\SmartcartServiceProvider"</b>
-</pre></blockquote>
+</blockquote>
 
 <hr>
 
@@ -130,7 +129,7 @@ Adicione em routemiddlware:<br>
 ### EXEMPLO
 <p>Crie um banco de dados e configure o arquivo nativo <b>.env</b></p>
 <p>Adicione ao arquivo <b>DatabaseSeeder</b></p>
-<blockquote><pre>    
+<blockquote>
     //$this->call(UsersTableSeeder::class);
     $this->call(smcCategoryTableSeeder::class);
     $this->call(smcBrandTableSeeder::class);
@@ -139,7 +138,7 @@ Adicione em routemiddlware:<br>
     $this->call(smcProviderTableSeeder::class);
     $this->call(smcProductTableSeeder::class);
     $this->call(smcInventoryTableSeeder::class);
-</pre></blockquote>
+</blockquote>
 <p>Popule as tabelas: <b>php artisan db:seed</b></p>
 
 <hr>
