@@ -97,28 +97,20 @@
 <hr>
 
 ##### PROVIDER: app/config/app.php
-<blockquote>
 ...   
    Lameck\Smartcart\SmartcartServiceProvider::class,
-<blockquote>
-
-<hr>
   
  <hr>
  
 #### KERNEL: app/http/kernel.php
 Adicione em routemiddlware:<br>
-<blockquote>
-        <b>'smcAuth' => 'Lameck\Smartcart\Http\Middleware\Authenticate',</b>
-</blockquote>
+<b>'smcAuth' => 'Lameck\Smartcart\Http\Middleware\Authenticate',</b>
 
 <hr>
 
 #### PUBLISH
 
-<blockquote>
 <b>php artisan vendor:publish --provider="Lameck\Smartcart\SmartcartServiceProvider"</b>
-</blockquote>
 
 <hr>
 
