@@ -148,7 +148,7 @@ Adicione em routemiddlware:<br>
 <br>
 
 <b>SHOP</b><br>
-<img src="https://s18.postimg.org/a6s97skcp/Captura_de_tela_de_2018-03-28_21-36-55.png" widht="900" height="400">" widht="900" height="400">
+<img src="https://s18.postimg.org/a6s97skcp/Captura_de_tela_de_2018-03-28_21-36-55.png" widht="900" height="400">
 
 <br>
 <b>Criando conta</b><p>Por utilizar sessão como meio de gerenciamento do cart, é necessário logar no sistema.</p><br>
