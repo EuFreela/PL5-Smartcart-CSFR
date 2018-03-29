@@ -2,7 +2,7 @@
 
 #### Packager Smartcart
 
-<p><b>SmartCart</b> é um packager criado para o frame work laravel por Lameck Fernandes. Tem o objetivo de automatizar o desenvolvimento de aplicações que utilizam um carrinho de compras.</p>
+<p><b>SmartCart</b> é um packager criado para o framework laravel 5.5 por Lameck Fernandes. Tem o objetivo de automatizar o desenvolvimento de aplicações que utilizam um carrinho de compras.</p>
 
 <p>Este packager foi desenvolvido para acelerar o desenvolvimento de lojas virtuais que utilizam um carrinho de compras. Ou seja, neste packager foi desenvolvidos as rotas, tabelas e os controles de uma aplicação convencional. Para exemplificar seu uso, com o packager foi desenvolvido um protótipo com bootstrap 4. Em resumo, para o complemento deste packager basta a API de pagamento.</p>
 
