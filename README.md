@@ -152,29 +152,23 @@ Adicione em routemiddlware:<br>
 
 <br>
 <b>Criando conta</b><p>Por utilizar sessão como meio de gerenciamento do cart, é necessário logar no sistema.</p><br>
-<img src="<b>Home</b><br>
-<img src="https://s18.postimg.org/gx8qh9a3d/Captura_de_tela_de_2018-03-28_21-38-32.png" widht="900" height="400">" widht="900" height="400">
+<img src="https://s18.postimg.org/gx8qh9a3d/Captura_de_tela_de_2018-03-28_21-38-32.png" widht="900" height="400">
 
 <br>
-<b>Após Login, add pedidos</b><p></p><br>
-<img src="<b>Home</b><br>
-<img src="https://s18.postimg.org/dqe6xnkih/Captura_de_tela_de_2018-03-28_21-40-08.png" widht="900" height="400">" widht="900" height="400">
+<b>Após Login, add pedidos</b><br>
+<img src="https://s18.postimg.org/dqe6xnkih/Captura_de_tela_de_2018-03-28_21-40-08.png" widht="900" height="400">
 
 <br>
 <b>Carrinho</b><p></p><br>
-<img src="<b>Home</b><br>
-<img src="https://s18.postimg.org/7cp3ufahl/Captura_de_tela_de_2018-03-28_21-41-06.png" widht="900" height="400">" widht="900" height="400">
+<img src="https://s18.postimg.org/7cp3ufahl/Captura_de_tela_de_2018-03-28_21-41-06.png" widht="900" height="400">
 
 <br>
 <b>Carrinho</b><p>Adicione mais pedidos, exclua algum item ou apague todos os itens.</p><br>
-<img src="<b>Home</b><br>
-<img src="https://s18.postimg.org/7cp3ufahl/Captura_de_tela_de_2018-03-28_21-41-06.png" widht="900" height="400">" widht="900" height="400">
+<img src="https://s18.postimg.org/7cp3ufahl/Captura_de_tela_de_2018-03-28_21-41-06.png" widht="900" height="400">
 
 <br>
 <b>Checkout</b><p>Basta inserir a API de pagamento</p><br>
-<img src="<b>Home</b><br>
-<img src="https://s18.postimg.org/w5ynv4ynt/Captura_de_tela_de_2018-03-28_21-43-02.png" widht="900" height="400">" widht="900" height="400">
-
+<img src="https://s18.postimg.org/w5ynv4ynt/Captura_de_tela_de_2018-03-28_21-43-02.png" widht="900" height="400">
 <hr>
 
 <p>Prócimos plugins adiciono o pagamento com diversos places dentro do brasil e fora.</p>
