@@ -102,7 +102,7 @@
 <blockquote><pre>
 ...   
    Lameck\Smartcart\SmartcartServiceProvider::class,
-<blockquote><pre>
+</pre><blockquote>
 
 <hr>
   
