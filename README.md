@@ -139,16 +139,16 @@ Adicione em routemiddlware:<br>
 
 <hr>
 <b>Domínio</b><br>
-<img src="https://s18.postimg.org/l3tkwszh5/Dominio.jpg" widht="400" height="400">
+<img src="https://s18.postimg.cc/l3tkwszh5/Dominio.jpg" widht="400" height="400">
 
 <hr>
 
 <b>Home</b><br>
-<img src="https://s18.postimg.org/9384w2kcp/Captura_de_tela_de_2018-03-28_21-22-14.png" widht="900" height="400">
+<img src="https://s18.postimg.cc/9384w2kcp/Captura_de_tela_de_2018-03-28_21-22-14.png" widht="900" height="400">
 <br>
 
 <b>SHOP</b><br>
-<img src="https://s18.postimg.org/a6s97skcp/Captura_de_tela_de_2018-03-28_21-36-55.png" widht="900" height="400">
+<img src="https://s18.postimg.cc/a6s97skcp/Captura_de_tela_de_2018-03-28_21-36-55.png" widht="900" height="400">
 
 <br>
 <b>Criando conta</b><p>Por utilizar sessão como meio de gerenciamento do cart, é necessário logar no sistema.</p><br>
@@ -156,19 +156,19 @@ Adicione em routemiddlware:<br>
 
 <br>
 <b>Após Login, add pedidos</b><br>
-<img src="https://s18.postimg.org/dqe6xnkih/Captura_de_tela_de_2018-03-28_21-40-08.png" widht="900" height="400">
+<img src="https://s18.postimg.cc/dqe6xnkih/Captura_de_tela_de_2018-03-28_21-40-08.png" widht="900" height="400">
 
 <br>
 <b>Carrinho</b><p></p><br>
-<img src="https://s18.postimg.org/7cp3ufahl/Captura_de_tela_de_2018-03-28_21-41-06.png" widht="900" height="400">
+<img src="https://s18.postimg.cc/7cp3ufahl/Captura_de_tela_de_2018-03-28_21-41-06.png" widht="900" height="400">
 
 <br>
 <b>Carrinho</b><p>Adicione mais pedidos, exclua algum item ou apague todos os itens.</p><br>
-<img src="https://s18.postimg.org/7cp3ufahl/Captura_de_tela_de_2018-03-28_21-41-06.png" widht="900" height="400">
+<img src="https://s18.postimg.cc/7cp3ufahl/Captura_de_tela_de_2018-03-28_21-41-06.png" widht="900" height="400">
 
 <br>
 <b>Checkout</b><p>Basta inserir a API de pagamento</p><br>
-<img src="https://s18.postimg.org/w5ynv4ynt/Captura_de_tela_de_2018-03-28_21-43-02.png" widht="900" height="400">
+<img src="https://s18.postimg.cc/w5ynv4ynt/Captura_de_tela_de_2018-03-28_21-43-02.png" widht="900" height="400">
 <hr>
 
 <p>Próximos plugins adiciono o pagamento com diversos places dentro e fora do Brasil.</p>
