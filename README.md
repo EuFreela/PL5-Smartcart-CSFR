@@ -157,7 +157,7 @@ Access denied for user 'homestead'@'localhost' (using password: YES)
 
 <br>
 <b>Criando conta</b><p>Por utilizar sessão como meio de gerenciamento do cart, é necessário logar no sistema.</p><br>
-<img src="https://s18.postimg.org/gx8qh9a3d/Captura_de_tela_de_2018-03-28_21-38-32.png" widht="900" height="400">
+<img src="https://s18.postimg.cc/gx8qh9a3d/Captura_de_tela_de_2018-03-28_21-38-32.png" widht="900" height="400">
 
 <br>
 <b>Após Login, add pedidos</b><br>
