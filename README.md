@@ -14,7 +14,7 @@
  <br>
   <h2><b>Publishables</b></h2>
   <h3><i>Migrations</i></h3>
-  <p>Ordem de migração. Notei que entre o sistema Linux e windows, a ordem se faz necessária. Alguns possíveis erros, que varia com o sistema e banco que esta usando, poderia ser que a forekey não pode ser nula. Devido a relação de composição entre as tabelas, category, brand, address e status não migram forekeys mas elas exportam. As tabelas que migram são: provider de status e address; product de provider; e inventory de product. Não ouve problemas para sistemas linux, especificamente Ubuntu 16 LTS rodando phpmyadmin com mysql. Porém no windows, com wampserver apresentou estes problemas os quais foram corrigidos alterando a ordem das tabelas. Isso, se for realmente usar <b>artisan migrate</b>.</p>
+  <p>Ordem de migração. Notei que entre o sistema Linux e windows, a ordem se faz necessária. Alguns possíveis erros, que varia com o sistema e banco que esta usando, poderia ser que a forekey não pode ser nula. Devido a relação de composição entre as tabelas, category, brand, address e status não migram forekeys mas elas exportam. As tabelas que migram são: provider de status e address; product de provider; e inventory de product. Não ouve problemas para sistemas linux, especificamente Ubuntu 16 LTS rodando phpmyadmin com mysql. Porém no windows, com wampserver apresentou estes problemas os quais foram corrigidos alterando a ordem das tabelas. Isso, se for realmente usar <b>php artisan migrate --force</b>.</p>
   <o>
       <li>2018_03_26_225025_create_category</li>
       <li>2018_03_26_230229_create_brand</li>
