@@ -91,8 +91,8 @@
 <hr>
 
 #### INSTALAÇÃO
-
- <b>composer require lameck/smartcart</b>
+Por enquanto esta disponível a versão de desenvolvimento.
+ <b>composer require lameck/smartcart:@dev</b>
 
 <hr>
 
