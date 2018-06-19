@@ -120,7 +120,7 @@ Adicione em routemiddlware:<br>
 
 ### EXEMPLO
 <p>Crie um banco de dados e configure o arquivo nativo <b>.env</b></p>
-<p>Crie as tabelas no banco: <b>php artisan migrate</b></p>
+<p>Crie as tabelas no banco: <b>php artisan migrate --force</b></p>
 <p>Adicione ao arquivo <b>DatabaseSeeder</b></p>
 <blockquote><pre>
     //$this->call(UsersTableSeeder::class);
