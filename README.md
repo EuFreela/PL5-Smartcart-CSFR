@@ -137,6 +137,11 @@ Adicione em routemiddlware:<br>
 <p>Rode o servidor<b>php artisan serve</b></p>
 <p>Para acessar as rotas basta <b>php artisan rout:list</b>. O protóripo se encontra na <b>localhot:8000/smc</b></p>
 
+<b>Possivel erro ao acessar a página SHOP</b>
+<pre>
+'homestead'@'localhost' 
+</pre>
+<b>Pare o servidor. Limpe o cache: php artisan cache:clear</b> Reinicie <b>php artisan serve</b>
 <hr>
 <b>Domínio</b><br>
 <img src="https://s18.postimg.cc/l3tkwszh5/Dominio.jpg" widht="400" height="400">
