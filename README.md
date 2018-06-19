@@ -139,7 +139,7 @@ Adicione em routemiddlware:<br>
 
 <b>Possivel erro ao acessar a página SHOP</b>
 <pre>
-'homestead'@'localhost' 
+Access denied for user 'homestead'@'localhost' (using password: YES)
 </pre>
 <b>Pare o servidor. Limpe o cache: php artisan cache:clear</b> Reinicie <b>php artisan serve</b>
 <hr>
